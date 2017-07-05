@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8"/>
+      <title>Dratewka The Shoemaker</title>
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+
+      <script src="libs/mter.js"></script>
+      
+      <script src="js/currentGameState.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/location.js"></script>
+      <script src="js/player.js"></script>
+      <script src="js/gameWindow.js"></script>
+      <script src="js/preventNavigatingBack.js"></script>
+      <script src="js/items.js"></script>
+      <script src="js/interactions.js"></script>
+      
+      <script>
+          document.addEventListener("DOMContentLoaded", function()
+          {
+              main.createContainer();
+              main.start();
+              //main.addKeyboardEvent();
+              //gameWindow.render();
+          })
+      </script>
+  </head>
+</html>

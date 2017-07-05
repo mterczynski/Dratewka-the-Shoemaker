@@ -1,0 +1,131 @@
+@import url("../fonts/fonts.css");
+@font-face {
+    font-family: PressStart2P;
+    src: url(../fonts/PressStart2P.ttf);
+}
+*
+{
+    margin:0;
+    padding:0;
+    font-size:3.5vmin;
+}
+body
+{
+    background-color:rgb(57,57,57);
+    overflow: hidden;
+}
+#container
+{
+    left:0.3%;
+    top:0.3%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color:rgb(165,162,178);
+    font-family:PressStart2P;
+    background-color:rgb(57,57,57);
+    overflow: hidden;
+    line-height: 130%;
+}
+#compass
+{
+    position: absolute;
+    left:40%;
+    top:10%;
+    width:30%;
+    min-width:30%;
+    max-width: 30%;
+    height:30%;
+    min-height:30%;
+    max-height:30%;
+}
+#compass_n,#compass_e,#compass_s,#compass_w
+{
+    position: absolute;
+    opacity: 0;
+    font-size:2.5vmin;
+}
+#compass_n
+{
+    left:53.5%;
+    top:6.5%; 
+}
+#compass_e
+{
+    left:66%;
+    top:17%;
+}
+#compass_s
+{
+    left:54%;
+    top:39.8%;
+}
+#compass_w
+{
+    left:42%;
+    top:17%;
+}
+#endGame1, #endGame2
+{
+    position: absolute;
+    opacity:0;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:6;
+}
+#endGame2
+{
+    z-index:5;
+}
+#locationHeader
+{
+
+}
+#locationImage
+{
+    position: relative;
+    width:64vmin;
+    height:40vmin;
+    border:0.5vmin solid white;
+}
+#locationImage #originalImage
+{
+    position: absolute;
+    width:64vmin;
+    height:40vmin;
+    z-index:2;
+}
+#locationImage #filterGlass
+{
+    position: absolute;
+    width:64vmin;
+    height:40vmin;
+    z-index:1;
+}
+#textUnderImage
+{
+
+}
+.startingImg
+{
+    position: absolute;
+    opacity:0;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+.startingImg1
+{
+    z-index:6;
+}
+.startingImg2
+{
+    z-index:5;
+}
+.startingImg3
+{
+    z-index:4;
+}
